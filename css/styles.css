@@ -85,21 +85,19 @@ text-align: center
 }
 
  /* about section */
-.about-title {
- letter-spacing: 0.02em
-}
 
+ 
 
 .about-subtitle {
-    color: var(--NAVY-BLUE, #2E2F42);
+color: var(--NAVY-BLUE, #2E2F42);
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
-letter-spacing: 0.2em;
+letter-spacing: 0.02em;
 background-color: #FFFFFF
 }
 .about-text {
-    color: var(--SLATE, #434455);
+color: var(--SLATE, #434455);
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -122,6 +120,7 @@ text-transform: capitalize;
 background-color: #FFFFFF
 }
 
+.team-list {background-color: #FFFFFF }
 
 .team-subtitle {
 color: var(--NAVY-BLUE, #2E2F42);
