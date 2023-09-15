@@ -86,7 +86,7 @@ text-align: center
 
  /* about section */
 
- 
+
 
 .about-subtitle {
 color: var(--NAVY-BLUE, #2E2F42);
@@ -117,10 +117,11 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-background-color: #FFFFFF
+background-color: #FFFFFF;
 }
 
-.team-list {background-color: #FFFFFF }
+.team-item {background-color: #FFFFFF;}
+
 
 .team-subtitle {
 color: var(--NAVY-BLUE, #2E2F42);
