@@ -1,4 +1,5 @@
 body { font-family: 'Roboto', sans-serif;
+    color: #434455;
     background-color: #fff;
     font-style: normal;
 }
@@ -61,12 +62,14 @@ letter-spacing: 0.02em;
 
  .order {background: var(--NAVY-BLUE, #2E2F42);
 }
+
 .order-title {
-    color: var(--WHITE, #FFF);
+ color: var(--WHITE, #FFF);
 font-size: 56px;
 font-weight: 700;
 line-height:1.07;
 letter-spacing: 0.02em;
+text-align: center
 }
 
 .order-button
@@ -79,7 +82,7 @@ letter-spacing: 0.02em;
 cursor: pointer;}
 
 .order-button:hover, .order-button:focus
-{color: var(--NAVY-BLUE, #2E2F42);}
+{color: var(--NAVY-BLUE, #404BBF);}
 
  /* about section */
 
@@ -90,6 +93,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.2em;
+background-color: #FFFFFF
 }
 .about-text {
     color: var(--SLATE, #434455);
@@ -167,20 +171,20 @@ letter-spacing: 0.02em;
 
 .footer-logo {
     color: var(--IRIS, #4D5AE5);
-font-family: Raleway;
+font-family: "Raleway" , sans-serif;
 font-size: 18px;
 font-weight: 700;
-line-height: 1.16;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 
 .footer-logo-color {
     color: var(--CLOUD, #F4F4FD);
-    font-family: Raleway;
+    font-family: "Raleway" , sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
